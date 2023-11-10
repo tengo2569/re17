@@ -1,0 +1,174 @@
+@media (width>1440px){
+    header{
+        width: 100vw;
+        background-size: cover;
+        background-image: url(./assets/desktop/hedearback.png);
+    }
+     header h1, .littlebox5 h1{
+        width: 730px;
+        font-size: 46px;
+    }
+    header p, .littlebox5 p{
+        width: 730px;
+        font-size: 20px;
+    }
+    .b1,.b2{
+        width: 227px;
+    }
+    .buttonbox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    header button:hover{
+        transition: 1.5s;
+      transform: scale(1.1);
+        cursor: grabbing;
+    }
+    h2,h3{
+        margin-left: 18%;
+    }
+    h2{
+        width: 730px;
+        font-size: 36px;
+    }
+    h3{
+        width: 730px;
+        font-size: 18px;
+    }
+   
+    .txt1 p, h4{
+        text-align: justify;
+        width: 350px;
+    }
+    main{
+        width: 100vw;
+        margin-top: 50px;
+    }
+    .littlebox1{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: auto auto;
+     
+    }
+    .littlebox2 img{
+        margin-top: 50px;
+    }
+    .pic1
+    {
+        display: none;
+    }
+    .pic2{
+        display: flex;
+     
+    }
+   .littlebox5{
+    margin-top: 150px;
+   }
+    .txt1{
+           align-items: flex-start;
+           width: 360px;
+          
+    }
+    .maintxt{
+        margin-left: 25%;
+      width: 860px;
+    }
+    .lfc{
+        width: 365px;
+        margin-left: -20%;
+        margin-top: 30px;
+    }
+    .littlebox2 h2{
+        margin-left: -10%;
+        text-align: center;
+
+    }
+    .mobimg{
+        display: none;
+    }
+    .desimg{
+        display: flex;
+        margin-left: -10%;
+        margin-top: 80px;
+    }
+    .littlebox2{
+        margin-top: 150px;
+    }
+    .littlebox2 p{
+        width: 730px;
+        font-size: 18px;
+        margin-left: -9%;
+    }
+    
+    .category h2{
+        width: 350px;
+        margin-left: -5%;
+    }
+    .category p{
+        width: 350px;
+    }
+    .littlebox3{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .littlebox4{
+        margin-top: 160px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        padding-left: 7%;
+        column-gap: 65px;
+    }
+    .littlebox4 img{
+        width: 165px;
+height: 49px;
+
+
+    }
+    .littlebox5 .buttonbox{
+        margin-top: 70px;
+        gap: 40px;
+        padding-bottom: 150px;
+    }
+    footer{
+height: 200px;
+margin-top: 0;
+width: 100vw;
+    }
+    .TXT{
+        margin-top: 0;
+        display: flex;
+    }
+    .f1{
+        margin-top: 3%;
+        margin-left: 20%;
+    }
+    .f2{
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    .f3{
+        margin-left: 4%;
+        margin-top: 4%;
+    }
+    .logo
+    {
+        top: 35%;
+        left: 8%;
+    }
+    footer p{
+        width: 160px;
+        text-align: left;
+    }
+    .icons{
+        gap:0;
+        margin-top: 5%;
+        margin-left: 16%;
+    }
+    .icons img{
+        width: 60px;
+        height: 24px;
+    }
+
+}
