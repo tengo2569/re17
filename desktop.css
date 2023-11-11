@@ -42,6 +42,7 @@
     }
 
     button:hover {
+        opacity:0.5;
         transition: 1.5s;
         transform: scale(1.1);
         cursor: grabbing;
