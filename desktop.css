@@ -23,8 +23,8 @@
         width: 227px;
     }
 
-    header img,
-    .logo {
+    header img
+    {
         animation: icons 1s linear infinite;
     }
 
