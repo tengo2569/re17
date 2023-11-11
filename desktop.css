@@ -78,6 +78,7 @@
         width: 100vw;
         display: grid;
         grid-template-columns: auto auto;
+        margin-top:8px;
 
     }
 
@@ -106,7 +107,7 @@
     }
 
     .maintxt {
-        margin-left: 25%;
+        margin-left: 15%;
         width: 860px;
         position: static;
     }
