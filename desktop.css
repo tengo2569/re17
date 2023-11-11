@@ -1,174 +1,280 @@
-@media (width>1440px){
-    header{
+@media (width>1440px) {
+    header {
         width: 100vw;
         background-size: cover;
         background-image: url(./assets/desktop/hedearback.png);
+
     }
-     header h1, .littlebox5 h1{
+
+    header h1,
+    .littlebox5 h1 {
         width: 730px;
         font-size: 46px;
     }
-    header p, .littlebox5 p{
+
+    header p,
+    .littlebox5 p {
         width: 730px;
         font-size: 20px;
     }
-    .b1,.b2{
+
+    .b1,
+    .b2 {
         width: 227px;
     }
-    .buttonbox{
+
+    header img,
+    .logo {
+        animation: icons 1s linear infinite;
+    }
+
+    .buttonbox {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    header button:hover{
+
+    header button:hover {
         transition: 1.5s;
-      transform: scale(1.1);
+        transform: scale(1.1);
         cursor: grabbing;
     }
-    h2,h3{
+
+    button:hover {
+        transition: 1.5s;
+        transform: scale(1.1);
+        cursor: grabbing;
+    }
+
+    h2,
+    h3 {
         margin-left: 18%;
     }
-    h2{
+
+    h2 {
         width: 730px;
         font-size: 36px;
     }
-    h3{
+
+    h3 {
         width: 730px;
         font-size: 18px;
     }
-   
-    .txt1 p, h4{
+
+    .txt1 p,
+    h4 {
         text-align: justify;
         width: 350px;
     }
-    main{
+
+    main {
         width: 100vw;
         margin-top: 50px;
     }
-    .littlebox1{
+
+    .littlebox1 {
         width: 100vw;
         display: grid;
         grid-template-columns: auto auto;
-     
+
     }
-    .littlebox2 img{
+
+    .littlebox2 img {
         margin-top: 50px;
+
     }
-    .pic1
-    {
+
+    .pic1 {
         display: none;
     }
-    .pic2{
+
+    .pic2 {
         display: flex;
-     
+
     }
-   .littlebox5{
-    margin-top: 150px;
-   }
-    .txt1{
-           align-items: flex-start;
-           width: 360px;
-          
+
+    .littlebox5 {
+        margin-top: 150px;
     }
-    .maintxt{
+
+    .txt1 {
+        align-items: flex-start;
+        width: 360px;
+
+    }
+
+    .maintxt {
         margin-left: 25%;
-      width: 860px;
+        width: 860px;
+        position: static;
     }
-    .lfc{
+
+    .lfc {
         width: 365px;
         margin-left: -20%;
         margin-top: 30px;
     }
-    .littlebox2 h2{
+
+    .littlebox2 h2 {
         margin-left: -10%;
         text-align: center;
 
     }
-    .mobimg{
+
+    .mobimg {
         display: none;
     }
-    .desimg{
+
+    .desimg {
         display: flex;
         margin-left: -10%;
         margin-top: 80px;
     }
-    .littlebox2{
+
+    .littlebox2 {
         margin-top: 150px;
     }
-    .littlebox2 p{
+
+    .littlebox2 p {
         width: 730px;
         font-size: 18px;
         margin-left: -9%;
     }
-    
-    .category h2{
+
+    .category h2 {
         width: 350px;
         margin-left: -5%;
     }
-    .category p{
+
+    .category p {
         width: 350px;
     }
-    .littlebox3{
+
+    .littlebox3 {
         display: grid;
         grid-template-columns: auto auto auto;
     }
-    .littlebox4{
+
+    .littlebox3 img {
+        margin-left: -8%;
+    }
+
+    .littlebox4 {
         margin-top: 160px;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         padding-left: 7%;
         column-gap: 65px;
     }
-    .littlebox4 img{
+
+    .littlebox4 img {
         width: 165px;
-height: 49px;
+        height: 49px;
 
 
     }
-    .littlebox5 .buttonbox{
+
+    .littlebox5 .buttonbox {
         margin-top: 70px;
         gap: 40px;
         padding-bottom: 150px;
     }
-    footer{
-height: 200px;
-margin-top: 0;
-width: 100vw;
+
+    footer {
+        height: 200px;
+        margin-top: 0;
+        width: 100vw;
     }
-    .TXT{
+
+    .TXT {
         margin-top: 0;
         display: flex;
     }
-    .f1{
+
+    .f1 {
         margin-top: 3%;
         margin-left: 20%;
     }
-    .f2{
+
+    .f2 {
         margin-left: 10%;
         margin-top: 3%;
     }
-    .f3{
+
+    .f3 {
         margin-left: 4%;
         margin-top: 4%;
     }
-    .logo
-    {
+
+    .logo {
         top: 35%;
         left: 8%;
     }
-    footer p{
+
+    footer p {
         width: 160px;
         text-align: left;
     }
-    .icons{
-        gap:0;
+
+    .icons {
+        gap: 0;
         margin-top: 5%;
         margin-left: 16%;
     }
-    .icons img{
+
+    .icons img {
         width: 60px;
         height: 24px;
+    }
+
+    .icons img:hover {
+        transform: scale(2);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    @keyframes icons {
+
+        0% {
+            transform: translateY(0);
+        }
+
+        25% {
+            transform: translateY(0);
+        }
+
+        40% {
+            transform: translateY(-24px);
+        }
+
+        55% {
+            transform: translateY(0);
+        }
+
+        65% {
+            transform: translateY(-12px);
+        }
+
+        75% {
+            transform: translateY(0);
+        }
+
+        82% {
+            transform: translateY(-6px);
+        }
+
+        87% {
+            transform: translateY(0);
+        }
+
+        93% {
+            transform: translateY(-4px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
     }
 
 }
